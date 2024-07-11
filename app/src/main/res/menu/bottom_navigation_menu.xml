@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/book_shelf"
+        android:enabled="true"
+        android:icon="@drawable/book"
+        android:title="本棚"
+        />
+
+    <item
+        android:id="@+id/add_book"
+        android:enabled="true"
+        android:icon="@drawable/add"
+        android:title="本を追加"
+        />
+
+    <item
+        android:id="@+id/find_book"
+        android:enabled="true"
+        android:icon="@drawable/find_book"
+        android:title="本を見つける"
+        />
+
+    <item
+        android:id="@+id/others"
+        android:enabled="true"
+        android:icon="@drawable/others"
+        android:title="その他"
+        />
+
+</menu>
