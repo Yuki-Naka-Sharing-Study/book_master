@@ -2,4 +2,5 @@
     <string name="app_name">book_master</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_future_dev_description">これからどんどんアップデートを重ねてみなさんに満足されるアプリを目指していきたいと思っています。\n-ログインアカウントのバリエーション\n-ウィジェット機能\n-通知機能\n-kindle対応\n-バーコード連続登録\nなど。\n機能追加・修正の要望がありましたら、お問い合わせ\nフォームからお問い合わせください。\nまた、本アプリがいいなと思ったらアプリのレビュー\nをお願いします。</string>
 </resources>
