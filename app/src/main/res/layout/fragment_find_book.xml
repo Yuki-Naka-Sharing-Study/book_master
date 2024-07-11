@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindBookFragment">
+
+    <View
+        android:id="@+id/no_interest_view"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/add_to_book_shelf_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="24dp"
+        />
+
+    <ImageView
+        android:id="@+id/no_interest_image_view"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="@+id/no_interest_view"
+        app:layout_constraintLeft_toLeftOf="@+id/no_interest_view"
+        app:layout_constraintRight_toRightOf="@+id/no_interest_view"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/no_interest_text_view"
+        android:text="興味ない"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@+id/no_interest_view"
+        app:layout_constraintBottom_toBottomOf="@+id/no_interest_view"
+        app:layout_constraintRight_toRightOf="@+id/no_interest_view"
+        android:layout_marginBottom="8dp"
+        />
+
+    <View
+        android:id="@+id/add_to_book_shelf_view"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toEndOf="@id/no_interest_view"
+        app:layout_constraintEnd_toStartOf="@+id/interest_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="24dp"
+        />
+
+    <ImageView
+        android:id="@+id/add_to_book_shelf_image_view"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="@+id/add_to_book_shelf_view"
+        app:layout_constraintLeft_toLeftOf="@+id/add_to_book_shelf_view"
+        app:layout_constraintRight_toRightOf="@+id/add_to_book_shelf_view"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/add_to_book_shelf_text_view"
+        android:text="本棚に追加"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@+id/add_to_book_shelf_view"
+        app:layout_constraintBottom_toBottomOf="@+id/add_to_book_shelf_view"
+        app:layout_constraintRight_toRightOf="@+id/add_to_book_shelf_view"
+        android:layout_marginBottom="8dp"
+        />
+
+    <View
+        android:id="@+id/interest_view"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toEndOf="@id/add_to_book_shelf_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        />
+
+    <ImageView
+        android:id="@+id/interest_image_view"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="@+id/interest_view"
+        app:layout_constraintLeft_toLeftOf="@+id/interest_view"
+        app:layout_constraintRight_toRightOf="@+id/interest_view"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/interst_text_view"
+        android:text="読みたい"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@+id/interest_view"
+        app:layout_constraintBottom_toBottomOf="@+id/interest_view"
+        app:layout_constraintRight_toRightOf="@+id/interest_view"
+        android:layout_marginBottom="8dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
