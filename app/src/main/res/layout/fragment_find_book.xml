@@ -9,6 +9,7 @@
 
     <View
         android:id="@+id/no_interest_view"
+        android:background="@drawable/light_or_dark_rounded_background"
         android:layout_width="0dp"
         android:layout_height="80dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,6 +44,7 @@
 
     <View
         android:id="@+id/add_to_book_shelf_view"
+        android:background="@drawable/light_or_dark_rounded_background"
         android:layout_width="0dp"
         android:layout_height="80dp"
         app:layout_constraintStart_toEndOf="@id/no_interest_view"
@@ -76,15 +78,15 @@
 
     <View
         android:id="@+id/interest_view"
+        android:background="@drawable/light_or_dark_rounded_background"
         android:layout_width="0dp"
         android:layout_height="80dp"
-        app:layout_constraintStart_toEndOf="@id/add_to_book_shelf_view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="24dp"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/add_to_book_shelf_view" />
 
     <ImageView
         android:id="@+id/interest_image_view"
