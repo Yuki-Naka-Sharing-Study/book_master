@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/model_change_item_text_view"
+        android:id="@+id/read_book_list_item_left_text_view"
         android:text="月か年"
         android:textSize="16sp"
         android:layout_width="wrap_content"
@@ -17,7 +17,7 @@
         />
 
     <TextView
-        android:id="@+id/model_change_item_image_button"
+        android:id="@+id/read_book_list_item_right_text_view"
         android:text="○冊"
         android:textSize="16sp"
         android:layout_width="wrap_content"
